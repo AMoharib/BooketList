@@ -46,7 +46,7 @@ public class LocalRepository implements DataRepository.Local {
 
     @Override
     public void checkIfThereIsALongTimeUnreadBooks(Consumer<List<Book>> found) {
-        bookDao.checkIfThereIsALongTimeUnreadBooks(System.currentTimeMillis(), TimeUnit.HOURS.toMillis(1))
+        bookDao.checkIfThereIsALongTimeUnreadBooks(System.currentTimeMillis(), TimeUnit.DAYS.toMillis(3))
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(found);
