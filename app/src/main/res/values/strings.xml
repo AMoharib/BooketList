@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BooketList</string>
+    <string name="add_to_list">Add To My List</string>
+    <string name="remove_from_list">Remove From My List</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_search">Search</string>
+    <string name="title_my_books">My Books</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="progress">Progress</string>
+    <string name="save">Save</string>
+    <string name="notification_title">Hey, I got something for you</string>
+    <string name="notification_content">It seems that you haven\'t read some books in a while please check them up and update me.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="slogan">\'Books are a uniquely portable magic.\'</string>
+    <string name="slogan_author">–Stephen King</string>
+    <string name="description">Description</string>
+    <string name="add_to_my_list">Add To My List</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+
+    <string-array name="tabs_array">
+        <item>LOGIN</item>
+        <item>REGISTER</item>
+    </string-array>
+</resources>

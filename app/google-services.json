@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1057146696217",
+    "firebase_url": "https://booketlist-42b2f.firebaseio.com",
+    "project_id": "booketlist-42b2f",
+    "storage_bucket": "booketlist-42b2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057146696217:android:0440db274a12c2c0",
+        "android_client_info": {
+          "package_name": "com.amoharib.booketlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057146696217-r2se5j08mlnd7vt1e11lphfqj99rnkn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amoharib.booketlist",
+            "certificate_hash": "4511993213efdce1d0ed7d7f2a0a963e91eca98f"
+          }
+        },
+        {
+          "client_id": "1057146696217-sni43b3569cr2k61f8ervrokbhfjsmrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAih6-GRMC2n460EFKklKcVZFJ4KthgsJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057146696217-sni43b3569cr2k61f8ervrokbhfjsmrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

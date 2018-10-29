@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/progress_edittext_background"
+    android:divider="@android:color/black"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:weightSum="100">
+
+    <EditText
+        android:id="@+id/current_page_edittext"
+        style="@android:style/Widget.TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="number"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/pages_count_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:padding="8dp" />
+
+</LinearLayout>
