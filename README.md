@@ -1,6 +1,6 @@
 # BooketList
 
-To use the app you should register at this website https://www.goodreads.com/api/keys
+To use the app you should register in this website https://www.goodreads.com/api/keys
 and save the api key in the gradle.properties file
 add this line at the end of the file
 API_KEY=[APIKEY]
